@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/filmhay.iml" filepath="$PROJECT_DIR$/.idea/modules/filmhay.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/filmhay.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/filmhay.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/filmhay.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/filmhay.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/filmhay.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/filmhay.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/filmhay.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/filmhay.app.unitTest.iml" />
+    </modules>
+  </component>
+</project>
