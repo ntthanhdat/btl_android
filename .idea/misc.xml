@@ -3,7 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/film_60TH3_TH4_3/app/src/main/res/layout/activity_main.xml" value="0.19947916666666668" />
         <entry key="..\:/film_60TH3_TH4_3/app/src/main/res/layout/activity_sign_in.xml" value="0.19947916666666668" />
+        <entry key="..\:/film_60TH3_TH4_3/app/src/main/res/layout/activity_sign_up.xml" value="0.38333333333333336" />
         <entry key="..\:/film_60TH3_TH4_3/app/src/main/res/layout/fragment_home.xml" value="0.19947916666666668" />
       </map>
     </option>

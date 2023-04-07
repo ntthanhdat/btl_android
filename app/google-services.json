@@ -1,33 +1,34 @@
 {
   "project_info": {
-    "project_number": "986950718102",
-    "project_id": "appfilm-b6b73",
-    "storage_bucket": "appfilm-b6b73.appspot.com"
+    "project_number": "529940189513",
+    "firebase_url": "https://film-app-101-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "film-app-101",
+    "storage_bucket": "film-app-101.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:986950718102:android:cbb5f9a1255dd9654968b7",
+        "mobilesdk_app_id": "1:529940189513:android:e9c5310e9ca5d4fb5c4a98",
         "android_client_info": {
-          "package_name": "com.congnghephanmem.filmhay"
+          "package_name": "com.congnghephanmem.filmapp"
         }
       },
       "oauth_client": [
         {
-          "client_id": "986950718102-ko9usspoqssde69ojdgbernq34b87oca.apps.googleusercontent.com",
+          "client_id": "529940189513-ub1sdmfqgi46tocjfoab7v9ho4vvbk0j.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyDUYZh9nYdVOsKVT_otbdhYaQhfzTCmrVA"
+          "current_key": "AIzaSyCbVchaheSXOFaOKbL9mfhCnpjr7nXwhMM"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "986950718102-ko9usspoqssde69ojdgbernq34b87oca.apps.googleusercontent.com",
+              "client_id": "529940189513-ub1sdmfqgi46tocjfoab7v9ho4vvbk0j.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

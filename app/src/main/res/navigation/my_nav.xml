@@ -7,17 +7,17 @@
 
     <fragment
         android:id="@+id/home2"
-        android:name="com.congnghephanmem.filmhay.fragment.home"
+        android:name="com.congnghephanmem.filmapp.fragment.home"
         android:label="fragment_home"
         tools:layout="@layout/fragment_home" />
     <fragment
         android:id="@+id/film_doc_quyen"
-        android:name="com.congnghephanmem.filmhay.fragment.film_doc_quyen"
+        android:name="com.congnghephanmem.filmapp.fragment.film_doc_quyen"
         android:label="fragment_film_doc_quyen"
         tools:layout="@layout/fragment_film_doc_quyen" />
     <fragment
         android:id="@+id/profile"
-        android:name="com.congnghephanmem.filmhay.fragment.profile"
+        android:name="com.congnghephanmem.filmapp.fragment.profile"
         android:label="fragment_profile"
         tools:layout="@layout/fragment_profile" />
 </navigation>
