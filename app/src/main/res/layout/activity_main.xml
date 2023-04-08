@@ -29,7 +29,7 @@
                     android:layout_gravity="center"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="FPT Play"
+                    android:text="Film Hay"
                     android:textColor="#EF1111"/>
                 <ImageView
                     android:id="@+id/search"

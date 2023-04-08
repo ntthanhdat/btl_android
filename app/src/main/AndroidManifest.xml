@@ -21,19 +21,23 @@
             android:name=".SignIn.SignInActivity"
             android:configChanges="orientation|screenSize"
             android:theme="@style/AppTheme"
-            android:windowSoftInputMode="stateHidden" >
+            android:windowSoftInputMode="stateHidden"
+            android:parentActivityName=".MainActivity">
 
         </activity>
         <activity
             android:name=".SignUp.SignUpActivity"
             android:configChanges="screenSize"
             android:theme="@style/Theme.AppCompat.NoActionBar"
-            android:windowSoftInputMode="stateHidden" >
+            android:windowSoftInputMode="stateHidden"
+            android:parentActivityName=".SignIn.SignInActivity">
+
 
         </activity>
         <activity
             android:name=".MainActivity"
-            android:theme="@style/button">
+            android:theme="@style/button"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

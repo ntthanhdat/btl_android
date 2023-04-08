@@ -8,4 +8,10 @@ public class GetData {
 
     public GetData() {
     }
+
+    public void clear(){
+        this.email = "";
+        this.phone = "";
+        this.avatar ="";
+    }
 }

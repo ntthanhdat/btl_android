@@ -31,15 +31,16 @@
                    android:layout_width="match_parent"
                    android:layout_height="match_parent"
                    android:orientation="vertical">
+
                    <androidx.appcompat.widget.AppCompatTextView
-                       android:layout_gravity="top"
+                       android:id="@+id/tv_name_user"
                        android:layout_width="match_parent"
                        android:layout_height="wrap_content"
+                       android:layout_gravity="top"
                        android:text=":))"
                        android:textColor="#fff"
-                       android:textStyle="bold"
                        android:textSize="20sp"
-                       android:id="@+id/tv_name_user"/>
+                       android:textStyle="bold" />
                    <androidx.appcompat.widget.AppCompatTextView
                        android:layout_width="match_parent"
                        android:layout_height="wrap_content"

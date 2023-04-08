@@ -102,7 +102,7 @@
                 android:maxLines="1"
                 android:textColor="@android:color/white"
                 android:textSize="16sp"
-                android:text="123321"/>
+                android:text="123456"/>
         </com.google.android.material.textfield.TextInputLayout>
 
         <LinearLayout

@@ -7,6 +7,7 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -101,19 +102,29 @@ public class profile extends Fragment {
         GetData getData=new GetData();
         tvNameUser.setText(getData.ten);
         tvEmail.setText(getData.email);
-        if (!tvNameUser.equals(":))")){
+        if (tvNameUser.getText()!=""){
+
+
             btn_dangKy.setVisibility(View.GONE);
             btn_dangNhap.setVisibility(View.GONE);
+        }else{
+            tvNameUser.setText("Guest");
+            Log.d("TAG", "chua co user");
+            btn_out.setVisibility(View.GONE);
+            btn_profile.setVisibility(View.GONE);
+            btn_phimDaXem.setVisibility(View.GONE);
         }
-        //Todo: lỗi đây
+
         if (getData.avatar!=null){
             Picasso.get().load(getData.avatar).into(imageView);
+        }else{
+
         }
         btn_dangNhap.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(getActivity(), SignInActivity.class));
-                getActivity().finish();
+//                getActivity().finish();
             }
         });
 
@@ -121,16 +132,42 @@ public class profile extends Fragment {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(getActivity(), SignUpActivity.class));
-                getActivity().finish();
+//                getActivity().finish();
             }
         });
 
         btn_out.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(getActivity(), SignInActivity.class));
-                getActivity().finish();
+                clearUser();
             }
         });
+    }
+
+    public void clearUser(){
+        GetData a= new GetData();
+        a.clear();
+
+        GetData getData=new GetData();
+        tvNameUser.setText(getData.ten);
+        tvEmail.setText(getData.email);
+        if (tvNameUser.getText()!=""){
+
+
+            btn_dangKy.setVisibility(View.GONE);
+            btn_dangNhap.setVisibility(View.GONE);
+        }else{
+            tvNameUser.setText("Guest");
+            Log.d("TAG", "chua co user");
+            btn_out.setVisibility(View.GONE);
+            btn_profile.setVisibility(View.GONE);
+            btn_phimDaXem.setVisibility(View.GONE);
+        }
+
+        if (getData.avatar!=null){
+            Picasso.get().load(getData.avatar).into(imageView);
+        }else{
+
+        }
     }
 }

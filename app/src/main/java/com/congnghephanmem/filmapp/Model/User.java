@@ -77,4 +77,5 @@ public class User {
         this.role = role;
         this.avatar = avatar;
     }
+
 }
